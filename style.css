@@ -1,0 +1,28 @@
+
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+background-color: deepskyblue;
+}
+.calculator {
+max-width: 400px;
+margin: 0 auto;
+padding: 20px;
+background-color:pink;
+border-radius: 5px;
+}
+input[type="text"] {
+width: 95%;
+padding: 10px;
+margin-bottom: 10px;
+}
+.buttons {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-gap: 5px;
+
+}
+button {
+padding: 10px;
+font-size: 20px;
+}
